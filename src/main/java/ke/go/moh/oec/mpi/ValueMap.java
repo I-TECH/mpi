@@ -88,7 +88,11 @@ public class ValueMap {
             new Value(PersonIdentifier.Type.kisumuHdssId, "1"),
             new Value(PersonIdentifier.Type.cccUniqueId, "2"),
             new Value(PersonIdentifier.Type.masterPatientRegistryId, "3"),
-            new Value(PersonIdentifier.Type.cccLocalId, "4")));
+            new Value(PersonIdentifier.Type.cccLocalId, "4"),
+            new Value(PersonIdentifier.Type.nupi, "50"),
+            new Value(PersonIdentifier.Type.telNo, "10"),
+            new Value(PersonIdentifier.Type.nationalId, "8"),
+            new Value(PersonIdentifier.Type.parentTelNo, "11")));
 
     public static final ValueMap FINGERPRINT_TYPE = new ValueMap(Arrays.asList(
             new Value(Fingerprint.Type.rightIndexFinger, "1"),
